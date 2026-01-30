@@ -22,8 +22,8 @@ const contacts = [
   {
     icon: Instagram,
     label: "Instagram",
-    value: "instagram.com/username",
-    href: "https://instagram.com/username"
+    value: "instagram.com/alexandr_tishechkin",
+    href: "https://instagram.com/alexandr_tishechkin"
   }
 ];
 
