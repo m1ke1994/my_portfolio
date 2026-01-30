@@ -14,6 +14,7 @@ export function Header() {
   const [isDark, setIsDark] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [scrollProgress, setScrollProgress] = useState(0);
 
   useEffect(() => {
     const stored = localStorage.getItem("theme");
@@ -29,6 +30,24 @@ export function Header() {
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  useEffect(() => {
+    const updateProgress = () => {
+      const doc = document.documentElement;
+      const scrollTop = window.scrollY;
+      const scrollHeight = doc.scrollHeight - window.innerHeight;
+      const progress = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
+      setScrollProgress(progress);
+    };
+
+    updateProgress();
+    window.addEventListener("scroll", updateProgress);
+    window.addEventListener("resize", updateProgress);
+    return () => {
+      window.removeEventListener("scroll", updateProgress);
+      window.removeEventListener("resize", updateProgress);
+    };
   }, []);
 
   const toggleTheme = () => {
@@ -128,6 +147,14 @@ export function Header() {
             </Button>
           </div>
         </nav>
+      </div>
+
+      {/* Scroll progress bar */}
+      <div className="h-1 bg-transparent">
+        <div
+          className="h-full bg-gold"
+          style={{ width: `${scrollProgress}%` }}
+        />
       </div>
 
       {/* Mobile Menu */}

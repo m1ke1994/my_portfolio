@@ -1,29 +1,29 @@
-import { Mail, Github, MessageCircle, Linkedin } from "lucide-react";
+import { Mail, Github, MessageCircle, Instagram } from "lucide-react";
 
 const contacts = [
   {
     icon: MessageCircle,
     label: "Telegram",
-    value: "@username",
-    href: "https://t.me/username"
+    value: "@M1ke994",
+    href: "https://t.me/@M1ke994"
   },
   {
     icon: Mail,
     label: "Email",
-    value: "dev@example.com",
-    href: "mailto:dev@example.com"
+    value: "Tishechkin1994@gmail.com",
+    href: "mailto:Tishechkin1994@gmail.com"
   },
   {
     icon: Github,
     label: "GitHub",
-    value: "github.com/username",
-    href: "https://github.com"
+    value: "github.com/m1ke1994",
+    href: "https://github.com/m1ke1994"
   },
   {
-    icon: Linkedin,
-    label: "LinkedIn",
-    value: "linkedin.com/in/username",
-    href: "https://linkedin.com"
+    icon: Instagram,
+    label: "Instagram",
+    value: "instagram.com/username",
+    href: "https://instagram.com/username"
   }
 ];
 

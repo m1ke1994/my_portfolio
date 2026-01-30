@@ -1,10 +1,10 @@
-import { Github, Send, Mail, Linkedin } from "lucide-react";
+import { Github, Send, Mail, Instagram } from "lucide-react";
 
 const socialLinks = [
   { icon: Github, href: "https://github.com", label: "GitHub" },
   { icon: Send, href: "https://t.me/username", label: "Telegram" },
   { icon: Mail, href: "mailto:dev@example.com", label: "Email" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+  { icon: Instagram, href: "https://instagram.com/username", label: "Instagram" },
 ];
 
 const navLinks = [
