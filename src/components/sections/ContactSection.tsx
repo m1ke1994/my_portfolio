@@ -29,8 +29,8 @@ const contacts = [
     icon: Linkedin,
     label: "LinkedIn",
     value:
-      "linkedin.com/in/саня-тишечкин-4929883a6",
-    href: "https://linkedin.com/in/саня-тишечкин-4929883a6"
+      "linkedin.com/in/alexandr-tishechkin",
+    href: "https://linkedin.com/in/alexandr-tishechkin"
   }
 ];
 
