@@ -1,4 +1,4 @@
-import { Mail, Github, MessageCircle, Instagram } from "lucide-react";
+import { Mail, Github, MessageCircle, Instagram, Linkedin } from "lucide-react";
 
 const contacts = [
   {
@@ -24,6 +24,13 @@ const contacts = [
     label: "Instagram",
     value: "instagram.com/alexandr_tishechkin",
     href: "https://instagram.com/alexandr_tishechkin"
+  },
+  {
+    icon: Linkedin,
+    label: "LinkedIn",
+    value:
+      "linkedin.com/in/саня-тишечкин-4929883a6",
+    href: "https://linkedin.com/in/саня-тишечкин-4929883a6"
   }
 ];
 
