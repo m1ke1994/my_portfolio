@@ -185,7 +185,7 @@ export const projects: Project[] = [
   techStack: ["Vue 3", "Django", "Django REST Framework", "PostgreSQL", "Docker", "Nginx"],
   role: "Полный цикл разработки: backend, frontend, интеграция аналитики и деплой.",
   images: ["/e-clock.JPG"],
-  demoUrl: "https://www.e-clock.ru/"
+  demoUrl: "http://e-clock.ru/"
 }
 ];
 
