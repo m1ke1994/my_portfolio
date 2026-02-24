@@ -152,7 +152,41 @@ export const projects: Project[] = [
     techStack: ["React", "Node.js", "PostgreSQL", "REST API"],
     role: "Frontend-логика и интеграция с API, проработка кабинета и ролей.",
     images: ["/card_loyality.JPG"]
-  }
+  },
+  {
+  id: "14",
+  title: "TrackNode — SaaS аналитика сайтов",
+  category: "multipage",
+  shortDescription: "SaaS-платформа веб-аналитики с отслеживанием посещений, конверсий и SEO-аудитом.",
+  fullDescription: "Полноценная система аналитики: отслеживание визитов, уникальных пользователей, конверсий, источников трафика и поведения пользователей. Реализованы личные кабинеты клиентов, генерация PDF-отчетов, SEO-аудит и Telegram-уведомления. Архитектура построена как multi-tenant SaaS.",
+  techStack: ["Vue 3", "Django", "Django REST Framework", "PostgreSQL", "Redis", "Celery", "Docker", "Nginx"],
+  role: "Проектирование архитектуры, backend (API, аналитика, multi-tenant), frontend-панель, деплой и DevOps.",
+  images: ["/tracknode.jpeg"],
+  demoUrl: "https://tracknode.ru/",
+  results: "Реализована система отслеживания пользователей и событий, подключаемая к сторонним сайтам. Поддержка нескольких клиентов и изоляция данных."
+},
+{
+  id: "15",
+  title: "Новое Конаково",
+  category: "multipage",
+  shortDescription: "Многостраничный сайт загородного пространства с расписанием, услугами и блогом.",
+  fullDescription: "Корпоративный сайт с динамическими страницами услуг, расписанием мероприятий, статьями и медиа-контентом. Реализована админ-панель на Django для управления контентом, тарифами и галереями. Проработана мобильная версия и UX.",
+  techStack: ["Vue 3", "Django", "Django REST Framework", "PostgreSQL", "Docker"],
+  role: "Backend-разработка (модели, админка, API), frontend-интерфейс, архитектура проекта.",
+  images: ["/novoe-konakovo.jpeg"],
+  demoUrl: "https://www.novoe-konakovo.ru/"
+},
+{
+  id: "16",
+  title: "E-Clock — интернет-магазин часов",
+  category: "multipage",
+  shortDescription: "Интернет-магазин часов с каталогом, карточками товаров и заявками.",
+  fullDescription: "E-commerce проект с каталогом товаров, карточками, фильтрацией и оформлением заказа. Реализована админ-панель для управления товарами и заявками. Интеграция с аналитикой и системой отслеживания поведения пользователей.",
+  techStack: ["Vue 3", "Django", "Django REST Framework", "PostgreSQL", "Docker", "Nginx"],
+  role: "Полный цикл разработки: backend, frontend, интеграция аналитики и деплой.",
+  images: ["/e-clock.jpeg"],
+  demoUrl: "https://www.e-clock.ru/"
+}
 ];
 
 export const categories = [
