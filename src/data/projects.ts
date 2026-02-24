@@ -174,7 +174,7 @@ export const projects: Project[] = [
   techStack: ["Vue 3", "Django", "Django REST Framework", "PostgreSQL", "Docker"],
   role: "Backend-разработка (модели, админка, API), frontend-интерфейс, архитектура проекта.",
   images: ["/novoe-konakovo.JPG"],
-  demoUrl: "https://www.novoe-konakovo.ru/"
+  demoUrl: "https://novoe-konakovo.ru/"
 },
 {
   id: "16",
