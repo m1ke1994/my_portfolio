@@ -161,7 +161,7 @@ export const projects: Project[] = [
   fullDescription: "Полноценная система аналитики: отслеживание визитов, уникальных пользователей, конверсий, источников трафика и поведения пользователей. Реализованы личные кабинеты клиентов, генерация PDF-отчетов, SEO-аудит и Telegram-уведомления. Архитектура построена как multi-tenant SaaS.",
   techStack: ["Vue 3", "Django", "Django REST Framework", "PostgreSQL", "Redis", "Celery", "Docker", "Nginx"],
   role: "Проектирование архитектуры, backend (API, аналитика, multi-tenant), frontend-панель, деплой и DevOps.",
-  images: ["/tracknode.jpeg"],
+  images: ["/tracknode.JPG"],
   demoUrl: "https://tracknode.ru/",
   results: "Реализована система отслеживания пользователей и событий, подключаемая к сторонним сайтам. Поддержка нескольких клиентов и изоляция данных."
 },
@@ -173,7 +173,7 @@ export const projects: Project[] = [
   fullDescription: "Корпоративный сайт с динамическими страницами услуг, расписанием мероприятий, статьями и медиа-контентом. Реализована админ-панель на Django для управления контентом, тарифами и галереями. Проработана мобильная версия и UX.",
   techStack: ["Vue 3", "Django", "Django REST Framework", "PostgreSQL", "Docker"],
   role: "Backend-разработка (модели, админка, API), frontend-интерфейс, архитектура проекта.",
-  images: ["/novoe-konakovo.jpeg"],
+  images: ["/novoe-konakovo.JPG"],
   demoUrl: "https://www.novoe-konakovo.ru/"
 },
 {
@@ -184,7 +184,7 @@ export const projects: Project[] = [
   fullDescription: "E-commerce проект с каталогом товаров, карточками, фильтрацией и оформлением заказа. Реализована админ-панель для управления товарами и заявками. Интеграция с аналитикой и системой отслеживания поведения пользователей.",
   techStack: ["Vue 3", "Django", "Django REST Framework", "PostgreSQL", "Docker", "Nginx"],
   role: "Полный цикл разработки: backend, frontend, интеграция аналитики и деплой.",
-  images: ["/e-clock.jpeg"],
+  images: ["/e-clock.JPG"],
   demoUrl: "https://www.e-clock.ru/"
 }
 ];
